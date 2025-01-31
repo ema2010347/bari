@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Moderando Bari, Italy", "Sta Giocando a Bari, Italy", "Sviluppato da ema2010346"];
+const statusMessages = ["Moderando Rimini, Italy", "Sta Giocando a Rimini, Italy", "Sviluppato da ema2010346"];
 const statusTypes = [ 'dnd', 'idle', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
